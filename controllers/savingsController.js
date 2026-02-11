@@ -33,6 +33,13 @@ const updateSavingsProgress = async (req, res) => {
     try {
         const goal = await SavingsGoal.findById(id);
         if (goal && goal.userId.toString() === req.user._id.toString()) {
+            if (req.body.transactionId) {
+                const existing = await SavingsGoal.findOne({ transactionId: req.body.transactionId });
+                if (existing) {
+                    return res.status(400).json({ message: 'This savings transaction has already been recorded.' });
+                }
+                goal.transactionId = req.body.transactionId; // Note: This might only store the LAST tx ID if we don't have a separate collection.
+            }
             goal.currentAmount = currentAmount;
             await goal.save();
             res.json(goal);

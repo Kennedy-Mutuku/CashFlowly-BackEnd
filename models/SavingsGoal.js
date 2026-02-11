@@ -22,6 +22,11 @@ const savingsGoalSchema = mongoose.Schema(
         targetDate: {
             type: Date,
         },
+        transactionId: {
+            type: String,
+            unique: true,
+            sparse: true,
+        },
     },
     {
         timestamps: true,
