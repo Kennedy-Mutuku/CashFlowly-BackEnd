@@ -1,7 +1,7 @@
 const SavingsGoal = require('../models/SavingsGoal');
 
 const addSavingsGoal = async (req, res) => {
-    const { name, targetAmount, currentAmount } = req.body;
+    const { name, targetAmount, currentAmount, targetDate } = req.body;
 
     try {
         const goal = await SavingsGoal.create({
@@ -9,6 +9,7 @@ const addSavingsGoal = async (req, res) => {
             name,
             targetAmount,
             currentAmount,
+            targetDate,
         });
         res.status(201).json(goal);
     } catch (error) {

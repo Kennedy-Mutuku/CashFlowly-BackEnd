@@ -35,6 +35,8 @@ const getMonthlyReport = async (req, res) => {
             expenseByCategory,
             incomeCount: incomes.length,
             expenseCount: expenses.length,
+            monthlyIncome: incomes,
+            monthlyExpenses: expenses,
         });
     } catch (error) {
         res.status(400).json({ message: error.message });

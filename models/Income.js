@@ -11,6 +11,10 @@ const incomeSchema = mongoose.Schema(
             type: Number,
             required: [true, 'Please add an amount'],
         },
+        title: {
+            type: String,
+            required: [true, 'Please add a title (e.g., Laptop, Salary)'],
+        },
         source: {
             type: String,
             required: [true, 'Please add a source'],
@@ -19,6 +23,10 @@ const incomeSchema = mongoose.Schema(
             type: Date,
             required: [true, 'Please add a date'],
             default: Date.now,
+        },
+        paymentMethod: {
+            type: String,
+            default: 'Cash',
         },
         description: {
             type: String,

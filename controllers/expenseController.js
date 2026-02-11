@@ -1,7 +1,7 @@
 const Expense = require('../models/Expense');
 
 const addExpense = async (req, res) => {
-    const { amount, category, date, description } = req.body;
+    const { amount, category, date, description, title, paymentMethod } = req.body;
 
     try {
         const expense = await Expense.create({
@@ -10,6 +10,8 @@ const addExpense = async (req, res) => {
             category,
             date,
             description,
+            title,
+            paymentMethod: paymentMethod || 'Cash',
         });
         res.status(201).json(expense);
     } catch (error) {

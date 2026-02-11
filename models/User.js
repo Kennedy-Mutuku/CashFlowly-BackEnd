@@ -11,10 +11,25 @@ const userSchema = mongoose.Schema(
             type: String,
             required: [true, 'Please add an email'],
             unique: true,
+            match: [
+                /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                'Please add a valid email',
+            ],
+        },
+        phoneNumber: {
+            type: String,
+            required: [true, 'Please add a phone number'],
+            unique: true,
+        },
+        incomeLevel: {
+            type: String,
+            enum: ['Low', 'Middle', 'High', 'Prefer not to say'],
+            default: 'Prefer not to say',
         },
         password: {
             type: String,
             required: [true, 'Please add a password'],
+            minlength: 6,
         },
     },
     {

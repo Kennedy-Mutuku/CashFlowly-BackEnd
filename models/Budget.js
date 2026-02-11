@@ -9,7 +9,13 @@ const budgetSchema = mongoose.Schema(
         },
         month: {
             type: String, // e.g., "2024-02"
-            required: [true, 'Please add a month'],
+        },
+        endDate: {
+            type: Date,
+        },
+        category: {
+            type: String, // "Monthly" or "Specific Goal"
+            default: "Monthly",
         },
         amount: {
             type: Number,

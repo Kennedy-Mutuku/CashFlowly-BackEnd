@@ -8,29 +8,42 @@ const generateToken = (id) => {
 };
 
 const registerUser = async (req, res) => {
-    const { name, email, password } = req.body;
+    const { name, email, phoneNumber, incomeLevel, password } = req.body;
 
-    const userExists = await User.findOne({ email });
-
-    if (userExists) {
-        return res.status(400).json({ message: 'User already exists' });
+    if (!name || !email || !phoneNumber || !password) {
+        return res.status(400).json({ message: 'Please provide all required fields' });
     }
 
-    const user = await User.create({
-        name,
-        email,
-        password,
-    });
+    const emailExists = await User.findOne({ email });
+    if (emailExists) {
+        return res.status(400).json({ message: 'Email already registered' });
+    }
 
-    if (user) {
-        res.status(201).json({
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            token: generateToken(user._id),
+    const phoneExists = await User.findOne({ phoneNumber });
+    if (phoneExists) {
+        return res.status(400).json({ message: 'Phone number already registered' });
+    }
+
+    try {
+        const user = await User.create({
+            name,
+            email,
+            phoneNumber,
+            incomeLevel,
+            password,
         });
-    } else {
-        res.status(400).json({ message: 'Invalid user data' });
+
+        if (user) {
+            res.status(201).json({
+                _id: user._id,
+                name: user.name,
+                email: user.email,
+                phoneNumber: user.phoneNumber,
+                token: generateToken(user._id),
+            });
+        }
+    } catch (error) {
+        res.status(400).json({ message: error.message || 'Invalid user data' });
     }
 };
 
@@ -44,6 +57,8 @@ const loginUser = async (req, res) => {
             _id: user._id,
             name: user.name,
             email: user.email,
+            phoneNumber: user.phoneNumber,
+            incomeLevel: user.incomeLevel,
             token: generateToken(user._id),
         });
     } else {
@@ -51,4 +66,46 @@ const loginUser = async (req, res) => {
     }
 };
 
-module.exports = { registerUser, loginUser };
+const getUserProfile = async (req, res) => {
+    const user = await User.findById(req.user._id);
+    if (user) {
+        res.json({
+            _id: user._id,
+            name: user.name,
+            email: user.email,
+            phoneNumber: user.phoneNumber,
+            incomeLevel: user.incomeLevel,
+        });
+    } else {
+        res.status(404).json({ message: 'User not found' });
+    }
+};
+
+const updateUserProfile = async (req, res) => {
+    const user = await User.findById(req.user._id);
+
+    if (user) {
+        user.name = req.body.name || user.name;
+        user.phoneNumber = req.body.phoneNumber || user.phoneNumber;
+        user.incomeLevel = req.body.incomeLevel || user.incomeLevel;
+
+        if (req.body.password) {
+            user.password = req.body.password;
+        }
+
+        const updatedUser = await user.save();
+
+        res.json({
+            _id: updatedUser._id,
+            name: updatedUser.name,
+            email: updatedUser.email,
+            phoneNumber: updatedUser.phoneNumber,
+            incomeLevel: updatedUser.incomeLevel,
+            token: generateToken(updatedUser._id),
+        });
+    } else {
+        res.status(404).json({ message: 'User not found' });
+    }
+};
+
+module.exports = { registerUser, loginUser, getUserProfile, updateUserProfile };
