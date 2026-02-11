@@ -1,7 +1,7 @@
 const Income = require('../models/Income');
 
 const addIncome = async (req, res) => {
-    const { amount, source, date, description, title, paymentMethod } = req.body;
+    const { amount, source, date, description, title, paymentMethod, transactionId } = req.body;
 
     try {
         const income = await Income.create({
@@ -12,6 +12,7 @@ const addIncome = async (req, res) => {
             description,
             title,
             paymentMethod: paymentMethod || 'Cash',
+            transactionId,
         });
         res.status(201).json(income);
     } catch (error) {

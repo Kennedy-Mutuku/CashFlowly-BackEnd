@@ -31,6 +31,11 @@ const incomeSchema = mongoose.Schema(
         description: {
             type: String,
         },
+        transactionId: {
+            type: String,
+            unique: true,
+            sparse: true, // Allow multiple nulls/undefined for manual entries
+        },
     },
     {
         timestamps: true,
