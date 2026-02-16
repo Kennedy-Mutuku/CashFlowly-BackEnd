@@ -22,7 +22,7 @@ const addExpense = async (req, res) => {
 
 const getExpenses = async (req, res) => {
     try {
-        const expenses = await Expense.find({ userId: req.user._id }).sort({ date: -1 });
+        const expenses = await Expense.find({ userId: req.user._id }).sort({ createdAt: -1 });
         res.json(expenses);
     } catch (error) {
         res.status(400).json({ message: error.message });

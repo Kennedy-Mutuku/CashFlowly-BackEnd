@@ -22,7 +22,7 @@ const addIncome = async (req, res) => {
 
 const getIncomes = async (req, res) => {
     try {
-        const incomes = await Income.find({ userId: req.user._id }).sort({ date: -1 });
+        const incomes = await Income.find({ userId: req.user._id }).sort({ createdAt: -1 });
         res.json(incomes);
     } catch (error) {
         res.status(400).json({ message: error.message });
