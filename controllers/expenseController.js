@@ -29,4 +29,14 @@ const getExpenses = async (req, res) => {
     }
 };
 
-module.exports = { addExpense, getExpenses };
+const deleteExpense = async (req, res) => {
+    try {
+        const expense = await Expense.findOneAndDelete({ _id: req.params.id, userId: req.user._id });
+        if (!expense) return res.status(404).json({ message: 'Expense record not found' });
+        res.json({ message: 'Expense deleted' });
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
+module.exports = { addExpense, getExpenses, deleteExpense };

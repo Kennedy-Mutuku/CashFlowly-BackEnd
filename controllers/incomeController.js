@@ -29,4 +29,14 @@ const getIncomes = async (req, res) => {
     }
 };
 
-module.exports = { addIncome, getIncomes };
+const deleteIncome = async (req, res) => {
+    try {
+        const income = await Income.findOneAndDelete({ _id: req.params.id, userId: req.user._id });
+        if (!income) return res.status(404).json({ message: 'Income record not found' });
+        res.json({ message: 'Income deleted' });
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
+module.exports = { addIncome, getIncomes, deleteIncome };
