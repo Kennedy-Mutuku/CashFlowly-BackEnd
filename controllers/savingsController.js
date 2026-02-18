@@ -1,54 +1,61 @@
-const SavingsGoal = require('../models/SavingsGoal');
+const SavingsRecord = require('../models/SavingsRecord');
 
-const addSavingsGoal = async (req, res) => {
-    const { name, targetAmount, currentAmount, targetDate } = req.body;
-
-    try {
-        const goal = await SavingsGoal.create({
-            userId: req.user._id,
-            name,
-            targetAmount,
-            currentAmount,
-            targetDate,
-        });
-        res.status(201).json(goal);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-};
-
-const getSavingsGoals = async (req, res) => {
-    try {
-        const goals = await SavingsGoal.find({ userId: req.user._id });
-        res.json(goals);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-};
-
-const updateSavingsProgress = async (req, res) => {
-    const { id } = req.params;
-    const { currentAmount } = req.body;
+// @desc    Add a savings record (deposit or withdrawal)
+// @route   POST /api/savings
+// @access  Private
+const addSavingsRecord = async (req, res) => {
+    const { amount, type, date, title, transactionId, partner } = req.body;
 
     try {
-        const goal = await SavingsGoal.findById(id);
-        if (goal && goal.userId.toString() === req.user._id.toString()) {
-            if (req.body.transactionId) {
-                const existing = await SavingsGoal.findOne({ transactionId: req.body.transactionId });
-                if (existing) {
-                    return res.status(400).json({ message: 'This savings transaction has already been recorded.' });
-                }
-                goal.transactionId = req.body.transactionId; // Note: This might only store the LAST tx ID if we don't have a separate collection.
+        if (transactionId) {
+            const existing = await SavingsRecord.findOne({ transactionId });
+            if (existing) {
+                return res.status(400).json({ message: 'This transaction has already been recorded.' });
             }
-            goal.currentAmount = currentAmount;
-            await goal.save();
-            res.json(goal);
+        }
+
+        const record = await SavingsRecord.create({
+            userId: req.user._id,
+            amount,
+            type,
+            date,
+            title,
+            transactionId,
+            partner: partner || 'Ziidi',
+        });
+        res.status(201).json(record);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
+// @desc    Get all savings records for a user
+// @route   GET /api/savings
+// @access  Private
+const getSavingsRecords = async (req, res) => {
+    try {
+        const records = await SavingsRecord.find({ userId: req.user._id }).sort({ date: -1 });
+        res.json(records);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
+// @desc    Delete a savings record
+// @route   DELETE /api/savings/:id
+// @access  Private
+const deleteSavingsRecord = async (req, res) => {
+    try {
+        const record = await SavingsRecord.findById(req.params.id);
+        if (record && record.userId.toString() === req.user._id.toString()) {
+            await record.deleteOne();
+            res.json({ message: 'Record removed' });
         } else {
-            res.status(404).json({ message: 'Goal not found' });
+            res.status(404).json({ message: 'Record not found' });
         }
     } catch (error) {
         res.status(400).json({ message: error.message });
     }
 };
 
-module.exports = { addSavingsGoal, getSavingsGoals, updateSavingsProgress };
+module.exports = { addSavingsRecord, getSavingsRecords, deleteSavingsRecord };
