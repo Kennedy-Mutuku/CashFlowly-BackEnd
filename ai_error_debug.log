@@ -1,0 +1,560 @@
+{
+  "timestamp": "2026-02-18T21:56:19.861Z",
+  "context": "chatWithAdvisor",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async ChatSession.sendMessage (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:1210:9)\n    at async chatWithAdvisor (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:130:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T21:56:48.685Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T21:56:48.866Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:02:58.947Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:02:59.157Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:03:41.732Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:03:42.235Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:03:54.868Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:14:19.321Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:18:00.962Z",
+  "context": "chatWithAdvisor",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async ChatSession.sendMessage (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:1210:9)\n    at async chatWithAdvisor (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:130:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:18:07.739Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:18:07.932Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:18:27.825Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:18:28.010Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:21:44.658Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:21:45.278Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:23:19.515Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:23:19.694Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:25:28.364Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:25:28.560Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:27:55.217Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:27:55.401Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:40:29.112Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:40:29.309Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:40:40.119Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:40:40.328Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:41:58.613Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:41:58.820Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:42:02.479Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:42:03.103Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:42:05.010Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:42:05.624Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:42:08.542Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:42:09.163Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:43:49.022Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:43:49.206Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:43:57.044Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:43:57.230Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:45:02.214Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:45:02.449Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:45:08.922Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:45:09.122Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:46:15.850Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:46:16.032Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:46:36.105Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:46:36.624Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:47:31.685Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:47:31.862Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:50:39.293Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:50:39.929Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:52:06.182Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:52:06.411Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:58:57.462Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:58:57.635Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:59:45.949Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T22:59:46.127Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:00:11.502Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:00:11.704Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:00:35.024Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:00:35.209Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:00:54.662Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:00:55.175Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:03:01.835Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:03:02.055Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:05:25.463Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:05:25.683Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:05:28.935Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:05:29.566Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:08:22.036Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---
+{
+  "timestamp": "2026-02-18T23:08:22.238Z",
+  "context": "getFinancialAdvice",
+  "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n    at handleResponseNotOk (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:434:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async makeRequest (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:403:9)\n    at async generateContent (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\node_modules\\@google\\generative-ai\\dist\\index.js:867:22)\n    at async getFinancialAdvice (D:\\CODE CENTRE\\CashFlowly\\CashFlowly-BackEnd\\controllers\\aiController.js:88:24)",
+  "status": 404
+}
+---

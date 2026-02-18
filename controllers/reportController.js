@@ -28,11 +28,19 @@ const getMonthlyReport = async (req, res) => {
             return acc;
         }, {});
 
+        // Add total savings balance (cumulative)
+        const SavingsRecord = require('../models/SavingsRecord');
+        const savingsRecords = await SavingsRecord.find({ userId });
+        const totalSavings = savingsRecords.reduce((acc, curr) => {
+            return curr.type === 'deposit' ? acc + curr.amount : acc - curr.amount;
+        }, 0);
+
         res.json({
             totalIncome,
             totalExpenses,
             balance: totalIncome - totalExpenses,
             expenseByCategory,
+            totalSavings,
             incomeCount: incomes.length,
             expenseCount: expenses.length,
             monthlyIncome: incomes,
