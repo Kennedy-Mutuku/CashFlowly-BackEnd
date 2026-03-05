@@ -25,6 +25,7 @@ const reportRoutes = require('./routes/reportRoutes');
 const debtRoutes = require('./routes/debtRoutes');
 const billRoutes = require('./routes/billRoutes');
 const aiRoutes = require('./routes/aiRoutes');
+const notificationRoutes = require('./routes/notificationRoutes');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/income', incomeRoutes);
@@ -35,6 +36,7 @@ app.use('/api/reports', reportRoutes);
 app.use('/api/debts', debtRoutes);
 app.use('/api/bills', billRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/notifications', notificationRoutes);
 
 const PORT = process.env.PORT || 5000;
 

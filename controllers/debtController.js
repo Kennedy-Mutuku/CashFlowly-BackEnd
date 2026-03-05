@@ -1,8 +1,9 @@
 const Debt = require('../models/Debt');
 const DebtPayment = require('../models/DebtPayment');
+const Notification = require('../models/Notification');
 
 const addDebt = async (req, res) => {
-    const { person, amount, type, dueDate, description } = req.body;
+    const { person, amount, type, dateBorrowed, dueDate, description } = req.body;
     try {
         const debt = await Debt.create({
             userId: req.user._id,
@@ -10,6 +11,7 @@ const addDebt = async (req, res) => {
             originalAmount: amount,
             remainingAmount: amount,
             type,
+            dateBorrowed: dateBorrowed || Date.now(),
             dueDate,
             description,
         });
@@ -47,25 +49,40 @@ const updateDebtStatus = async (req, res) => {
 
 const addDebtPayment = async (req, res) => {
     const { id } = req.params;
-    const { amountPaid, description } = req.body;
+    const { amountPaid, description, paymentDate } = req.body;
     try {
         const debt = await Debt.findById(id);
         if (debt && debt.userId.toString() === req.user._id.toString()) {
-            // Create payment record
-            await DebtPayment.create({
-                debtId: id,
-                userId: req.user._id,
-                amountPaid,
-                description,
-            });
-
             // Update debt balance
             debt.remainingAmount -= amountPaid;
             if (debt.remainingAmount <= 0) {
                 debt.remainingAmount = 0;
                 debt.status = 'Settled';
             }
+
+            // Create payment record with snapshotted balance
+            await DebtPayment.create({
+                debtId: id,
+                userId: req.user._id,
+                amountPaid,
+                balanceAfter: debt.remainingAmount,
+                description,
+                paymentDate: paymentDate || Date.now(),
+            });
             await debt.save();
+
+            // Professional immediate feedback notification
+            const progress = Math.round(((debt.originalAmount - debt.remainingAmount) / debt.originalAmount) * 100);
+            await Notification.create({
+                userId: req.user._id,
+                title: `Payment Recorded: ${debt.person}`,
+                message: debt.status === 'Settled'
+                    ? `CONGRATULATIONS! You have fully settled your ${debt.type === 'I Owe' ? 'debt with' : 'receivable from'} ${debt.person}. Ksh ${amountPaid.toLocaleString()} was the final payment.`
+                    : `Successful payment of Ksh ${amountPaid.toLocaleString()} recorded for ${debt.person}. You are now ${progress}% through your settlement journey.`,
+                type: 'debt',
+                link: `/debts?id=${debt._id}`
+            });
+
             res.json(debt);
         } else {
             res.status(404).json({ message: 'Debt not found' });

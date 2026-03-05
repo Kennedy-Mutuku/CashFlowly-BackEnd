@@ -23,6 +23,10 @@ const debtSchema = mongoose.Schema(
             type: String, // "I Owe" or "Owed to Me"
             required: true,
         },
+        dateBorrowed: {
+            type: Date,
+            default: Date.now,
+        },
         dueDate: {
             type: Date,
         },

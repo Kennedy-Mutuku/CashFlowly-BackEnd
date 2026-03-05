@@ -7,19 +7,35 @@ const budgetSchema = mongoose.Schema(
             required: true,
             ref: 'User',
         },
-        month: {
-            type: String, // e.g., "2024-02"
-        },
-        endDate: {
-            type: Date,
-        },
         category: {
-            type: String, // "Monthly" or "Specific Goal"
-            default: "Monthly",
+            type: String,
+            required: [true, 'Please add a category'],
+            enum: [
+                'Housing & Utilities',
+                'Food & Household',
+                'Transportation',
+                'Health & Personal Care',
+                'Financial Obligations',
+                'Lifestyle & Entertainment',
+                'Assets',
+                'Miscellaneous',
+            ],
         },
         amount: {
             type: Number,
             required: [true, 'Please add a budget amount'],
+        },
+        startDate: {
+            type: Date,
+            required: [true, 'Please add a start date'],
+        },
+        endDate: {
+            type: Date,
+            required: [true, 'Please add an end date'],
+        },
+        // Kept for backward compatibility with old Monthly budgets if needed, but not strictly required moving forward
+        month: {
+            type: String,
         },
     },
     {

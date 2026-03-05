@@ -16,6 +16,10 @@ const debtPaymentSchema = mongoose.Schema(
             type: Number,
             required: [true, 'Please add the amount paid'],
         },
+        balanceAfter: {
+            type: Number,
+            required: true,
+        },
         paymentDate: {
             type: Date,
             default: Date.now,
