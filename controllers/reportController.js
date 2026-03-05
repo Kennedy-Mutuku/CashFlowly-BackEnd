@@ -180,6 +180,13 @@ const getMonthlyReport = async (req, res) => {
         }
         // --- AUTO-NOTIFICATION LOGIC END ---
 
+        // 3. All-Time Debts Statistics
+        const allTimeDebts = debts.reduce((acc, curr) => {
+            if (curr.type === 'I Owe') acc.toPay += curr.remainingAmount;
+            else acc.toReceive += curr.remainingAmount;
+            return acc;
+        }, { toPay: 0, toReceive: 0 });
+
         res.json({
             totalIncome,
             totalExpenses,
@@ -193,7 +200,8 @@ const getMonthlyReport = async (req, res) => {
             activeBudgets, // Expose active budgets to the dashboard
             allTimeTotalIncome,
             allTimeTotalExpenses,
-            allTimeExpenseByCategory
+            allTimeExpenseByCategory,
+            allTimeDebts
         });
     } catch (error) {
         res.status(400).json({ message: error.message });

@@ -60,8 +60,24 @@ const deleteNotification = async (req, res) => {
     }
 };
 
+// @desc    Mark all notifications as read
+// @route   PUT /api/notifications/mark-all/read
+// @access  Private
+const markAllAsRead = async (req, res) => {
+    try {
+        await Notification.updateMany(
+            { userId: req.user._id, isRead: false },
+            { isRead: true }
+        );
+        res.json({ message: 'All notifications marked as read' });
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
 module.exports = {
     getNotifications,
     markAsRead,
     deleteNotification,
+    markAllAsRead,
 };
