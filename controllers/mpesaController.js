@@ -62,6 +62,19 @@ const parseMpesaMessage = (message) => {
         const agentMatch = message.match(/at\s+(.+?)\s+on/i);
         data.partner = agentMatch ? agentMatch[1].trim() : 'ATM / Agent';
         data.title = `Withdrawal at ${data.partner}`;
+    } else if (/pay your outstanding Fuliza/i.test(message)) {
+        data.type = 'debt-payment';
+        data.partner = 'Fuliza M-PESA';
+        data.title = 'Fuliza Debt Repayment';
+    }
+    
+    // Check if Fuliza was used (debt taken) alongside a regular transaction
+    if (/Fuliza M-PESA amount is/i.test(message) || /Fuliza M-PESA Ksh\s+([\d,\.]+)/i.test(message)) {
+        // If it was already marked as expense, we change its type to debt-taken
+        // so the backend knows to record both the expense AND the Fuliza loan
+        if (data.type === 'expense') {
+             data.type = 'debt-taken'; 
+        }
     }
 
     // Date
@@ -193,6 +206,55 @@ const approveTransaction = async (req, res) => {
                 transactionId: pending.transactionId || undefined,
                 description: `Auto-imported via SMS. Category: ${finalCategory}`,
             });
+        } else if (finalType === 'debt-payment') {
+            // Expense out from our side
+            await Expense.create({
+                userId: req.user._id,
+                amount: pending.amount,
+                title: pending.title,
+                category: 'Financial Obligations',
+                date: pending.date,
+                paymentMethod: 'M-PESA',
+                transactionId: pending.transactionId || undefined,
+                description: `Debt Repayment (Fuliza)`
+            });
+            
+            const Debt = require('../models/Debt'); // imported lazily to avoid requiring at top if it wasn't there
+            let fulizaDebt = await Debt.findOne({ userId: req.user._id, person: /Fuliza/i, type: 'I Owe', status: 'Open' });
+            if (fulizaDebt) {
+                fulizaDebt.remainingAmount = Math.max(0, fulizaDebt.remainingAmount - pending.amount);
+                if (fulizaDebt.remainingAmount === 0) fulizaDebt.status = 'Settled';
+                await fulizaDebt.save();
+            }
+        } else if (finalType === 'debt-taken') {
+            // Expense for the purchase
+            await Expense.create({
+                userId: req.user._id,
+                amount: pending.amount,
+                title: pending.title,
+                category: finalCategory,
+                date: pending.date,
+                paymentMethod: 'M-PESA',
+                transactionId: pending.transactionId || undefined,
+                description: `Auto-imported via SMS (Fuliza Usage)`,
+            });
+            
+            const Debt = require('../models/Debt');
+            let fulizaDebt = await Debt.findOne({ userId: req.user._id, person: /Fuliza/i, type: 'I Owe', status: 'Open' });
+            if (fulizaDebt) {
+                fulizaDebt.remainingAmount += pending.amount;
+                fulizaDebt.originalAmount += pending.amount;
+                await fulizaDebt.save();
+            } else {
+                await Debt.create({
+                    userId: req.user._id,
+                    person: 'Fuliza M-PESA',
+                    originalAmount: pending.amount,
+                    remainingAmount: pending.amount,
+                    type: 'I Owe',
+                    description: 'Auto-created from M-PESA SMS'
+                });
+            }
         } else {
             await Expense.create({
                 userId: req.user._id,

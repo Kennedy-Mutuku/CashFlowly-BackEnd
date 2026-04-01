@@ -10,16 +10,6 @@ const budgetSchema = mongoose.Schema(
         category: {
             type: String,
             required: [true, 'Please add a category'],
-            enum: [
-                'Housing & Utilities',
-                'Food & Household',
-                'Transportation',
-                'Health & Personal Care',
-                'Financial Obligations',
-                'Lifestyle & Entertainment',
-                'Assets',
-                'Miscellaneous',
-            ],
         },
         amount: {
             type: Number,
