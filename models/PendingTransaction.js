@@ -11,7 +11,7 @@ const pendingTransactionSchema = mongoose.Schema({
     amount: { type: Number, required: true },
     type: {
         type: String,
-        enum: ['income', 'expense', 'savings', 'savings-withdrawal'],
+        enum: ['income', 'expense', 'savings', 'savings-withdrawal', 'debt-taken', 'debt-payment'],
         required: true
     },
     title: { type: String, required: true },
@@ -26,7 +26,7 @@ const pendingTransactionSchema = mongoose.Schema({
     },
     source: {
         type: String,
-        enum: ['sms_forwarder', 'manual_paste'],
+        enum: ['sms_forwarder', 'manual_paste', 'native_sms'],
         default: 'sms_forwarder'
     }
 }, { timestamps: true });

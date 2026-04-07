@@ -92,6 +92,46 @@ const parseMpesaMessage = (message) => {
 };
 
 // ─────────────────────────────────────────────────────────
+// POST /api/mpesa/native-sms  (called by Capacitor native SMS listener)
+// Receives a pre-parsed object from the frontend mpesaParser
+// Auth: standard JWT bearer token (protect middleware)
+// ─────────────────────────────────────────────────────────
+const receiveNativeSms = async (req, res) => {
+    try {
+        const parsed = req.body.message; // The parsed object from mpesaParser.js
+        if (!parsed || !parsed.amount) {
+            return res.status(400).json({ message: 'Invalid or missing parsed transaction.' });
+        }
+
+        // Check for duplicate
+        if (parsed.transactionId) {
+            const existing = await PendingTransaction.findOne({ transactionId: parsed.transactionId });
+            if (existing) {
+                return res.status(200).json({ message: 'Duplicate transaction, already recorded.' });
+            }
+        }
+
+        const pending = await PendingTransaction.create({
+            userId: req.user._id,
+            rawSms: `[Native SMS] ${parsed.title}`,
+            transactionId: parsed.transactionId || undefined,
+            amount: parseFloat(parsed.amount) || 0,
+            type: parsed.type,
+            title: parsed.title,
+            partner: parsed.partner,
+            date: parsed.date ? new Date(parsed.date) : new Date(),
+            paymentMethod: 'M-PESA',
+            source: 'native_sms',
+        });
+
+        return res.status(201).json({ message: 'Transaction queued for review.', id: pending._id });
+    } catch (err) {
+        console.error('[Native SMS Error]:', err.message);
+        return res.status(500).json({ message: 'Server error processing native SMS.' });
+    }
+};
+
+// ─────────────────────────────────────────────────────────
 // POST /api/mpesa/sms  (called by SMS Forwarder app)
 // Body: { message: "...", token: "..." }  OR header: Authorization
 // ─────────────────────────────────────────────────────────
@@ -314,6 +354,7 @@ const getPendingCount = async (req, res) => {
 
 module.exports = {
     receiveSmsWebhook,
+    receiveNativeSms,
     getPendingTransactions,
     approveTransaction,
     skipTransaction,
